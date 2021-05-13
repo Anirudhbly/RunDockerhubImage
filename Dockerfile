@@ -1,3 +1,3 @@
-FROM anirudhbly/anirudh_tomcat:8
+FROM anirudhbly/anirudh_tomcat:10
 
 MAINTAINER anirudhbly@gmail.com
