@@ -3,7 +3,7 @@ pipeline {
      stages {
           stage("Download Image from Dockerhub") {
                steps {
-                    sh "docker pull ."
+                    sh "docker build ."
                }
           }
             
