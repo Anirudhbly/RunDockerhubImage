@@ -3,7 +3,7 @@ pipeline {
      stages {
           stage("Download Image from Dockerhub") {
                steps {
-                    sh "docker pull anirudhbly/anirudh_tomcat:8"
+                    sh "docker pull ."
                }
           }
             
